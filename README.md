@@ -1,5 +1,5 @@
 # serverless-numpy
-serverless numpy
+A ready to deploy repo explained in this [blog](https://serverless.com/blog/serverless-python-packaging/)
 
 ## Prerequesites
 
