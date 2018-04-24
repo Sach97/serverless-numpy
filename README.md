@@ -41,7 +41,7 @@ serverless remove
 
 ## TODOs
 
--[ ] Add continuous integration badge [CircleCI](https://serverless.com/blog/ci-cd-workflow-serverless-apps-with-circleci/) and explanation guide 
--[ ] Add an AWS deployment button
+- [ ] Add continuous integration badge [CircleCI](https://serverless.com/blog/ci-cd-workflow-serverless-apps-with-circleci/) and explanation guide. 
+- [ ] Add an AWS deployment button
 
 
