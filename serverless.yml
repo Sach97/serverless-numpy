@@ -1,0 +1,26 @@
+service: numpy-test
+
+provider:
+  name: aws
+  runtime: python3.6
+
+# functions:
+#   numpy:
+#     handler: handler.main
+functions:
+  numpy:
+    handler: handler.main
+    events:
+      - http:
+          path: /
+          method: post
+          cors: true
+
+plugins:
+  - serverless-python-requirements
+
+
+
+custom:
+  pythonRequirements:
+    dockerizePip: non-linux
