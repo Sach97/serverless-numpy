@@ -1,5 +1,5 @@
 # serverless-numpy
-A ready to deploy repo explained in this [blog](https://serverless.com/blog/serverless-python-packaging/)
+A ready to deploy repo as explained in this [blog](https://serverless.com/blog/serverless-python-packaging/)
 
 ## Prerequesites
 
@@ -39,5 +39,9 @@ serverless invoke -f numpy --data '{"a":15,"b":5,"c":3}' --log
 serverless remove
 ```
 
+## TODOs
+
+-[ ] Add continuous integration badge [CircleCI](https://serverless.com/blog/ci-cd-workflow-serverless-apps-with-circleci/) and explanation guide 
+-[ ] Add an AWS deployment button
 
 
