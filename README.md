@@ -5,6 +5,10 @@ A ready to deploy repo as explained in this [blog](https://serverless.com/blog/s
 
 - Have node and npm installed. There is a good guide for installing node and npm on linux [here](https://github.com/creationix/nvm)
 - Have python and pip installed. There is a good guide for installing python with conda [here](https://conda.io/docs/user-guide/install/linux.html)
+- Have virtualenv installed:
+```
+ pip install virtualenv
+```
 - Make sure you have exported your AWS keys in your environmnet variables
 
 ## Install serverless framework
