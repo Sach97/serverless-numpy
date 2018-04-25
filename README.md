@@ -17,6 +17,7 @@ npm install -g serverless
 ```
 git clone https://github.com/Sach97/serverless-numpy.git
 cd serverless-numpy
+virtualenv venv --python=python3
 source venv/bin/activate
 pip install requirements.txt
 npm install --save serverless-python-requirements
