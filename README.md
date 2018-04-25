@@ -22,7 +22,7 @@ pip install requirements.txt
 npm install --save serverless-python-requirements
 ```
 
-## Testing locally
+## Run locally
 
 ```
 serverless invoke local -f numpy --data '{"a":15,"b":5,"c":3}' --log
